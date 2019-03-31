@@ -8,7 +8,7 @@
           image: ami-0f2b4fc905b0bd1f1
           instance_type: t2.micro
           count: 1
-          vpc_subnet_id: subnet-c10697bb
+          vpc_subnet_id: subnet-3e91bb56
           assign_public_ip: yes
           group: default
           key_name: MyMacKey

@@ -1,6 +1,6 @@
 ---
   - name: Provision CentOS7 EC2
-    hosts: all
+    hosts: localhost
     tasks:
       - name: Provision CentOS7
         ec2:

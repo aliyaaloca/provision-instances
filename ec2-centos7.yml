@@ -1,6 +1,8 @@
 ---
   - name: Provision CentOS7 EC2
     hosts: localhost
+    connection: local
+    become: False
     tasks:
       - name: Provision CentOS7
         ec2:

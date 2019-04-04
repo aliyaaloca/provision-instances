@@ -11,4 +11,4 @@
           vpc_subnet_id: subnet-3e91bb56
           assign_public_ip: yes
           group: default
-          key_name: MyMacKey1
+          key_name: tower
